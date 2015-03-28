@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog for mah stuff",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --harmony server.js"
+  },
+  "author": "Luis Medina",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^0.18.1",
+    "koa-handlebars": "^0.5.2",
+    "koa-logger": "^1.2.2",
+    "koa-router": "^4.2.0",
+    "koa-static-folder": "^0.1.5",
+    "koa-views": "^3.0.0"
+  }
+}
