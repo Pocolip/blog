@@ -35,6 +35,15 @@ app.use(logger());
 
 route.get("/", index);
 
+app.use(route.routes());
+
+
 function *index(){
-    yield this.render("index", {title : "Home"});
+    yield this.render("index", {
+        posts : db.posts
+    });
 }
+
+//Set the port
+app.listen(3000);
+console.log("Listening on port 3000");

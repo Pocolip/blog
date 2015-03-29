@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>the thinks of an age</title>
+    <style>
+        body{
+            font: 16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+            background-color: snow;
+        }
+        h1{
+            font-size: 2em;
+            color: dimgray;
+            /*border-bottom: 1px solid darkgray;*/
+            margin-bottom: 0%;
+
+        }
+        h2{
+            font-size: 1.2em;
+            color: gray;
+        }
+        .divisor{
+            border-bottom: 1px solid darkgray;
+        }
+        a:link {
+            text-decoration: none;
+            color:dimgray;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color:dimgray;
+
+        }
+        a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:active {
+            text-decoration: none;
+            color:gray;
+        }
+        .header{
+            padding-top: 20px;
+            padding-left: 10%;
+            padding-right: 10%;
+            width:80%;
+            position:fixed;
+            background: inherit;
+            top:0px;
+        }
+        .content{
+            margin-top:140px;
+            padding-left: 15%;
+            padding-right: 15%;
+
+        }
+        .footer{
+            width:100%;
+            position:absolute;
+            bottom:0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><a href="/">The Blog of Luis Medina</a></h1>
+        <h2 style="margin-top: 0%">Anime, Games, Code</h2>
+        <div class="divisor"></div>
+    </div>
+    <div class="content">
+        {{{@body}}}
+    </div>
+</body>
+
+</html>
