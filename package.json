@@ -10,11 +10,14 @@
   "author": "Luis Medina",
   "license": "ISC",
   "dependencies": {
+    "co-body": "^1.1.0",
     "koa": "^0.18.1",
     "koa-handlebars": "^0.5.2",
     "koa-logger": "^1.2.2",
     "koa-router": "^4.2.0",
     "koa-static-folder": "^0.1.5",
-    "koa-views": "^3.0.0"
+    "koa-views": "^3.0.0",
+    "marked": "^0.3.3",
+    "morph": "^0.2.0"
   }
 }

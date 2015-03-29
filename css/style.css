@@ -1,0 +1,89 @@
+body{
+    font: 16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    background-color: snow;
+}
+h1{
+    font-size: 2em;
+    color: dimgray;
+    /*border-bottom: 1px solid darkgray;*/
+    margin-bottom: 0%;
+
+}
+h2{
+    font-size: 1.2em;
+    color: gray;
+}
+.divisor{
+    border-bottom: 1px solid darkgray;
+}
+a:link {
+    text-decoration: none;
+    color:dimgray;
+}
+
+a:visited {
+    text-decoration: none;
+    color:dimgray;
+
+}
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+    color:gray;
+}
+.header{
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width:80%;
+    position:fixed;
+    background: inherit;
+    top:0px;
+}
+.content{
+    margin-top:140px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.footer{
+    width:100%;
+    position:relative;
+    bottom:0;
+}
+input[type=text]{
+    border-radius: 5px;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 16px;
+    width:60%;
+}
+textarea{
+    border-radius: 5px;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 16px;
+    width:60%;
+    height: 40%;
+    border: inset;
+}
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: dimgray;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-style: hidden;
+}
+
+.btn:hover {
+    background: gray;
+    text-decoration: none;
+    border-style: hidden;
+
+}
