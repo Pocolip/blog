@@ -18,6 +18,8 @@
     "koa-static-folder": "^0.1.5",
     "koa-views": "^3.0.0",
     "marked": "^0.3.3",
-    "morph": "^0.2.0"
+    "mongojs": "^0.18.2",
+    "morph": "^0.2.0",
+    "node-env-file": "^0.1.7"
   }
 }

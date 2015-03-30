@@ -50,9 +50,10 @@ a:active {
 
 }
 .footer{
-    width:100%;
-    position:relative;
+    width:80%;
+    position:absolute;
     bottom:0;
+    text-align: right;
 }
 input[type=text]{
     border-radius: 5px;
