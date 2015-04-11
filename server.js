@@ -61,8 +61,9 @@ function *index(){
 
 function *post(){
     var entry = yield db.posts.find({link:this.params.link});
+    entry = entry[0];
     console.log(entry);
-    yield this.render('post',{post: entry});
+    yield this.render('post',{title: entry.title,date:entry.date,text:marked(entry.text)});
 }
 
 function *add(){
