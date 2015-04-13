@@ -1,6 +1,6 @@
 body{
     font: 16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-    background-color: snow;
+    /*background-color: snow;*/
 }
 h1{
     font-size: 2em;
@@ -19,6 +19,7 @@ h2{
 a:link {
     text-decoration: none;
     color:dimgray;
+    
 }
 
 a:visited {
@@ -42,6 +43,7 @@ a:active {
     position:fixed;
     background: inherit;
     top:0px;
+    background-color: white;
 }
 .content{
     margin-top:140px;
