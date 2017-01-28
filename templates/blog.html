@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>{{.Title}}</title>
+	<link href="/css/style.css" rel="stylesheet" type="text/css">
+	<script src="/js/jquery.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header" id="header">
+			<h1><a href="/">The Blog of Luis Medina</a></h1>
+			<h2 style="margin-top: 0%">I post a little bit of anime, video games, and programming.</h2>
+			<div class="divisor"></div>
+		</div>
+		<div class="content" id="content">
+			<h1>{{.Title}}</h1>
+			<p class="small">Posted on {{.Posted}} by {{.Author}}</p>
+			<div class="divisor"></div>
+			<br>
+			{{.Content}}
+		</div>
+		<br>
+		<br>
+		<br>
+	</div>
+	<div class="footer">
+		<div class="divisor" style="width:80%;padding-left: 10%;padding-right: 10%;margin-bottom:5px;"></div>
+		<a href="http://twitter.com/luisfrik">Twitter</a>
+		<a href="http://github.com/pocolip">Github</a>
+	</div>
+</body>
+	<script>$("#content").css({"padding-top": $("#header").height() });</script>
+
+</html>
